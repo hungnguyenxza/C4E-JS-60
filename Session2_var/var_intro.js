@@ -44,13 +44,20 @@ country = "My";
 // }
 
 
-let inputName = prompt("Hãy nhập tên");
-console.log(inputName);
+
 
 // 1. Nhập tên, nhập tuổi
 // In ra màn hình tên, tuổi
+let ten = prompt("Hãy nhập tên");
+let tuoi = prompt("Hãy nhập tuổi");
+alert(ten);
+alert(tuoi);
+
 
 // 2. Nhập tên, nhập năm sinh
 // In ra màn hình tên, tuổi
-
+let ten1 = prompt("Hãy nhập tên");
+let namSinh = prompt("Hãy nhập năm sinh");
+alert(ten1);
+alert(2019 - namsinh);
 
