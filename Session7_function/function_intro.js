@@ -168,14 +168,23 @@ let listPhones = [
   },
 ];
 
-listPhones.find(function(value, index, arr){
-  // console.log(value);
-  // console.log(index);
-  // console.log(arr);
-  // console.log("======="); 
-  return value.price === 7000;
-});
+// listPhones.find(function(value, index, arr){
+//   // console.log(value);
+//   // console.log(index);
+//   // console.log(arr);
+//   // console.log("======="); 
+//   return value.price === 7000;
+// });
 
+//1. Tìm các đt mà tên có chứa chữ a (không phân biệt hoa thường)
+
+//2. Tìm các đt mà giá = 100000
+
+//3. Tìm các đt của hãng Samsung
+
+//4. Kiểm tra xem có đt nào giá < 5000 không?
+
+//5 Sắp xếp đt theo giá, theo tên, theo hãng
 listPhones.sort(function(value1, value2){
   // Tăng dần, theo giá
   //return value1.price - value2.price;
@@ -186,7 +195,5 @@ listPhones.sort(function(value1, value2){
   return value1.name.toLowerCase().localeCompare(value2.name.toLowerCase());
 });
 console.log(listPhones);
-
-console.log("Đây là code mới nhất");
 
 
