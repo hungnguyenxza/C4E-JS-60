@@ -187,6 +187,6 @@ listPhones.sort(function(value1, value2){
 });
 console.log(listPhones);
 
-listPhones.
+console.log("Đây là code mới nhất");
 
 
