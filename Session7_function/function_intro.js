@@ -195,5 +195,3 @@ listPhones.sort(function(value1, value2){
   return value1.name.toLowerCase().localeCompare(value2.name.toLowerCase());
 });
 console.log(listPhones);
-
-
