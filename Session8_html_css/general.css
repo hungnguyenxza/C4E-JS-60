@@ -1,0 +1,39 @@
+body{
+  background-image: url('images/bg-pattern.jpg');
+}
+
+#container-fluid{
+  height: 1000px;
+  width: 70%;
+  border: 1px solid black;
+  margin: auto;
+}
+
+ul.menu{
+  list-style: none;
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+ul.menu li{
+  flex: 1;
+  text-align: center;
+  background-color: #ecae4c;
+  border: 1px solid #35cb98;
+}
+ul.menu li:hover{
+  background-color: #f8c83a;
+}
+ul.menu li a{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+ul.menu li a:hover{
+  color: #795548;
+}
+ul.menu li.active{
+  background-color: #a2a2a2;
+}
