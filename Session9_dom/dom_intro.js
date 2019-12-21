@@ -91,3 +91,18 @@ let listPhone2 = [
 // Lấy 3 thông tin ng dùng nhập, cho vào 1 object rỗng,
 // rồi mới push object này vào mảng listPhone2
 
+// xóa
+let indexDelete = listPhone.indexOf("Galaxy Note 10");
+listPhone.splice(indexDelete, 1);
+
+indexDelete = listPhone.findIndex(function(v){
+  return v.includes("X");
+});
+
+for (let i = 0; i < listPhone.length; i++) {
+  const element = listPhone[i];
+  if(element === "X"){
+    listPhone.splice(i, 1);
+  }
+}
+listPhone.splice(indexDelete, 1);
